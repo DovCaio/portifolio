@@ -5,14 +5,235 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caio Jhonatan Alves Pereira</title>
     <link rel="stylesheet" href="assets/tailwind/output.css">
+    <link rel="stylesheet" href="assets/css/global.css">
 </head>
 <body>
     
-    <header>
-        <h1 class="text-2xl font-bold">Caio Jhonatan Alves Pereira</h1>
+    <header class="flex justify-around p-4 header font-white shadow-xl">
+        <h1 class="text-2xl font-bold text-white">Caio Jhonatan Alves Pereira</h1>
+        <nav>
+            <ul class="flex space-x-4 h-full items-center font-bold text-xs">
+                <li><a href="#about" class="text-white hover:underline">About Me</a></li>
+                <li><a href="#about" class="text-white hover:underline">Experience</a></li>
+                <li><a href="#projects" class="text-white hover:underline">Projects</a></li>
+                <li><a href="#skills" class="text-white hover:underline">Skills</a></li>
+                <li><a href="#education" class="text-white hover:underline">Education</a></li>
+                <li><a href="#contact" class="text-white hover:underline">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
+    <main class="p-8 space-y-8 text-gray-800">
+
+
+        <section>
+            <!--Colocar aqui alguma imagem como objeto java, para resumir um pouco e ser meio engraçadinho -->
+
+            <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-1/2">
+                <h2 class="text-4xl font-bold">Bem-vindo ao meu portfólio!</h2>
+                <p class="text-lg">Olá! Meu nome é Caio Jhonatan Alves Pereira e este é o meu portfólio pessoal. Aqui você encontrará informações sobre mim, minhas experiências, projetos e habilidades. Sinta-se à vontade para explorar e conhecer mais sobre o meu trabalho!</p>
+            </div>
+        </section>
+
+        <section class="space-y-4 bg-white p-8 rounded-lg shadow-md w-1/2">
+            <h2 class="text-xl font-bold">Quem sou eu?</h2>
+            <div class="text-lg">
+                <p>
+                 Sou estudante de Ciência da Computação, com foco em desenvolvimento de software e forte interesse em entender não apenas como as tecnologias funcionam, mas por que funcionam. Gosto de construir soluções que unem fundamentos teóricos da computação com aplicações práticas no desenvolvimento web.   
+                </p>
+                <p>Atuo principalmente no desenvolvimento full stack, utilizando Java com Spring Boot no back-end e Next.js e Vue.js no front-end, com experiência em TypeScript, JavaScript, integração entre APIs REST, modelagem de entidades, segurança com Spring Security e persistência de dados. Tenho familiaridade com ambientes Linux, especialmente Fedora, que utilizo como sistema principal de desenvolvimento.</p>
+                <p>
+                    Ao longo dos meus projetos, já enfrentei e resolvi problemas diversos, como: organização de estados em aplicações modernas e arquitetura de aplicações web. Valorizo código limpo, bem estruturado e soluções que façam sentido a longo prazo.
+                </p>
+                <p>
+                    Além do desenvolvimento, tenho interesse acadêmico em pensamento computacional, engenharia de software e segurança de sistemas, já tendo trabalhado com revisão de literatura científica e critérios metodológicos em pesquisas na área de computação.
+                </p>
+                <p>
+                    Estou em constante aprendizado e busco evoluir tanto como desenvolvedor quanto como cientista da computação, sempre explorando novas tecnologias, aprimorando meus fundamentos e construindo projetos que representem meu crescimento técnico e intelectual.
+                </p>
+            </div>
+        </section>
+
+        <section class="w-full space-y-4">
+            <div class="bg-white p-4 rounded-lg shadow-md w-fit mx-auto">
+                <h2 class="text-xl font-bold text-center">Experiências profissionais</h2>
+
+            </div>
+            <div class="bg-white py-2 rounded-2xl ">
+                <div class="relative experiences-section text-white p-4 rounded-lg w-fit mx-auto border-2 border-blue-600">
+                    <div class="absolute text-xs -top-2.5 -right-10 bg-blue-600 rounded-full w-20 h-6 flex items-center justify-center mb-2 animate-pulse">
+                        
+                        <span class="font-semibold ">Atual</span>
+                    </div>
+                    <span class="text-xs text-center block mb-2">
+                        Outubro de 2025
+                    </span>
+                    <h3 class="font-bold">Estagiario</h3>
+                    <span> <strong>PRE</strong> - Presencial</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="">
+            <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
+                <h2 class="text-xl font-bold">Meus projetos</h2>
+
+            </div>
+
+            <div class="w-7/8 space-y-4 bg-white p-8 rounded-lg shadow-md mx-auto mb-4 flex flex-wrap gap-1 justify-center">
+
+                <div class="w-[calc(50%-1rem)] border-2 border-gray-300 p-4 rounded-lg shadow-md">
+
+
+                    <h3 class="text-lg font-bold mb-2 text-center text-gray-700 ">
+                        FindMyRide
+                    </h3>
+                    <a href="https://findmyride.site" target="_blank" class="block mb-4 hover:transition-transform hover:scale-105 transition-transform scale-100" >
+                        <img src="./assets/images/Screenshot From 2025-12-18 15-28-00.png" alt="Imagem do sistema findmyride" class="rounded-xl">
+
+                    </a>
+                    <div class="mt-2 border border-gray-600 p-4 rounded-lg code-section w-fit">
+                        <code class="font-mono text-sm text-white">
+                            <p><span class="text-code-color-primary">public class</span> FindMyRide <span class="text-code-color-primary">extends</span> CaioApplications {</p>
+                            <p class="ml-4"><span class="text-code-color-primary">public </span>FindMyRide() {</p>
+                            <p class="ml-8">    <span class="text-code-color-secondary">this</span>.name = <span class="text-code-color-tertiary">"FindMyRide"</span>;</p>
+                            <p class="ml-8">    <span class="text-code-color-secondary">this</span>.stack = [<span class="text-code-color-tertiary">"Nextjs"</span>, <span class="text-code-color-tertiary">"Nestjs"</span>, <span class="text-code-color-tertiary">"Prisma"</span>, <span class="text-code-color-tertiary">"Tailwind"</span>, <span class="text-code-color-tertiary">"Posgress"</span>, <span class="text-code-color-tertiary">"Docker"</span>, <span class="text-code-color-tertiary">"Terraform"</span>];</p>
+                            <p class="ml-8">    <span class="text-code-color-secondary">this</span>.myRole = <span class="text-code-color-tertiary">"FullStact Engineer"</span>;</p>
+                            <p class="ml-8">    <span class="text-code-color-secondary">this</span>.description = <span class="text-code-color-tertiary">"Uma plataforma web que conecta usuários a veículos disponíveis, oferecendo funcionalidades de busca avançada e gerenciamento eficiente de horários e informações. O projeto abrangeu tanto o frontend, utilizando Next.js e TypeScript, quanto o backend, com Nest.js, incluindo integração com banco de dados e motores de busca, como o Elasticsearch."</span>;</p>
+                            <p class="ml-4">    }</p>
+                            <p>}</p>
+                        </code>
+                    </div>
+                </div>
+
+
+                <div class="w-1/2 border-2 border-gray-300 p-4 rounded-lg shadow-md">
+
+
+                    <h3 class="text-lg font-bold mb-2 text-center text-gray-700 ">
+                        EduConnect
+                    </h3>
+                    <a href="https://edu-connect-azure.vercel.app/" target="_blank" class="block mb-4 hover:transition-transform hover:scale-105 transition-transform scale-100" >
+                        <img src="./assets/images/Screenshot From 2025-12-18 16-30-06.png" alt="Imagem do sistema educonnect" class="rounded-xl">
+
+                    </a>
+                    <div class="mt-2 border border-gray-600 p-4 rounded-lg code-section w-fit">
+                        <code class="font-mono text-sm text-white">
+                            <p><span class="text-code-color-primary">public class</span> EduConnect <span class="text-code-color-primary">extends</span> CaioApplications {</p>
+                            <p class="ml-4"><span class="text-code-color-primary">public </span>EduConnect() {</p>
+                            <p class="ml-8">    <span class="text-code-color-secondary">this</span>.name = <span class="text-code-color-tertiary">"Educonnect"</span>;</p>
+                            <p class="ml-8">    <span class="text-code-color-secondary">this</span>.stack = [<span class="text-code-color-tertiary">"Nextjs"</span>, <span class="text-code-color-tertiary">"SpringBoot"</span>, <span class="text-code-color-tertiary">"Tailwind"</span>, <span class="text-code-color-tertiary">"Posgress"</span>, <span class="text-code-color-tertiary">"Docker"</span>];</p>
+                            <p class="ml-8">    <span class="text-code-color-secondary">this</span>.myRole = <span class="text-code-color-tertiary">"Frontend Engineer"</span>;</p>
+                            <p class="ml-8">    <span class="text-code-color-secondary">this</span>.description = <span class="text-code-color-tertiary">"Plataforma web para que tutor e alunos possam se encontrar e interagir, focada especificamente em encontrar o melhor match possível entre tutor e aluno."</span>;</p>
+                            <p class="ml-4">    }</p>
+                            <p>}</p>
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section > <!--Talvez dividir entre soft e hard skills seja interessante-->
+            <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
+
+                <h2 class="text-xl font-bold">Minhas habilidades</h2>
+            </div>
+            <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4 grid grid-cols-8 gap-8 justify-center">
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/spring-boot-icon.png" alt=""> <!--O tamanho é 64x64-->
+                    <h3 class="font-bold text-md mt-2">SpringBoot</h3>
+                 </div>
+
+                 <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-carregou-48.png" alt=""> <!--O tamanho é 64x64-->
+                    <h3 class="font-bold text-md mt-2">Nest</h3>
+                 </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-postgresql-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Postgress</h3>
+                </div>
+
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-docker-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Docker</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-nextjs-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Nextjs</h3>
+                </div>
+
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-git-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Git</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-github-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">GitHub</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-html-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">HTML</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-css3-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">CSS</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-javascript-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">JavaScript</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-texto-datilografado-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">TypeScript</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-logo-java-coffee-cup-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Java</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-python-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Python</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-festa-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Bash</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-linux-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Linux</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-terraformar-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Terraform</h3>
+                </div>
+            </div>
+        </section> 
+
+        <section>
+            <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
+                <h2 class="text-xl font-bold">Contato</h2>
+
+
+            </div>
+            <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
+                <p>
+                    Email: caiosciencec@gmail.com
+                </p>
+            </div>
 
     </main>
 

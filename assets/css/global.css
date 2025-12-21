@@ -1,0 +1,36 @@
+:root {
+    --color1: #4b3e4d;
+    --color2: #1e8c93;
+    --color3: #dbd8a2;
+    --color4: #c4ac30;
+    --color5: #d74f33;
+}
+
+
+.header {
+    background-color: var(--color2);
+}
+
+.experiences-section {
+    background-color: var(--color1);
+}
+
+.code-section {
+    background-color: var(--color1);
+}
+
+.text-code-color-primary {
+    color: var(--color4);
+}
+
+.text-code-color-secondary {
+    color: var(--color2);
+}
+
+.text-code-color-tertiary {
+    color: var(--color5);
+}
+
+body {
+    background-color: var(--color2);
+}
