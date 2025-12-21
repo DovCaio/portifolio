@@ -14,7 +14,7 @@
         <nav>
             <ul class="flex space-x-4 h-full items-center font-bold text-xs">
                 <li><a href="#about" class="text-white hover:underline">About Me</a></li>
-                <li><a href="#about" class="text-white hover:underline">Experience</a></li>
+                <li><a href="#experience" class="text-white hover:underline">Experience</a></li>
                 <li><a href="#projects" class="text-white hover:underline">Projects</a></li>
                 <li><a href="#skills" class="text-white hover:underline">Skills</a></li>
                 <li><a href="#education" class="text-white hover:underline">Education</a></li>
@@ -35,7 +35,7 @@
             </div>
         </section>
 
-        <section class="space-y-4 bg-white p-8 rounded-lg shadow-md w-1/2">
+        <section class="space-y-4 bg-white p-8 rounded-lg shadow-md w-1/2" id="about">
             <h2 class="text-xl font-bold">Quem sou eu?</h2>
             <div class="text-lg">
                 <p>
@@ -54,7 +54,7 @@
             </div>
         </section>
 
-        <section class="w-full space-y-4">
+        <section class="w-full space-y-4" id="experience">
             <div class="bg-white p-4 rounded-lg shadow-md w-fit mx-auto">
                 <h2 class="text-xl font-bold text-center">Experiências profissionais</h2>
 
@@ -73,8 +73,8 @@
                 </div>
             </div>
         </section>
-        
-        <section class="">
+
+        <section class="" id="projects">
             <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
                 <h2 class="text-xl font-bold">Meus projetos</h2>
 
@@ -133,19 +133,19 @@
             </div>
         </section>
 
-        <section > <!--Talvez dividir entre soft e hard skills seja interessante-->
+        <section id="skills"> <!--Talvez dividir entre soft e hard skills seja interessante-->
             <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
 
                 <h2 class="text-xl font-bold">Minhas habilidades</h2>
             </div>
             <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4 grid grid-cols-8 gap-8 justify-center">
                 <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
-                    <img src="./assets/images/icons/spring-boot-icon.png" alt=""> <!--O tamanho é 64x64-->
+                    <img src="./assets/images/icons/spring-boot-icon.png" alt="">
                     <h3 class="font-bold text-md mt-2">SpringBoot</h3>
                  </div>
 
                  <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
-                    <img src="./assets/images/icons/icons8-carregou-48.png" alt=""> <!--O tamanho é 64x64-->
+                    <img src="./assets/images/icons/icons8-carregou-48.png" alt="">
                     <h3 class="font-bold text-md mt-2">Nest</h3>
                  </div>
 
@@ -165,6 +165,17 @@
                     <h3 class="font-bold text-md mt-2">Nextjs</h3>
                 </div>
 
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-reagir-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">React</h3>
+                </div>
+
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-angular-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Angular</h3>
+                </div>
 
                 <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
                     <img src="./assets/images/icons/icons8-git-48.png" alt="">
@@ -220,10 +231,43 @@
                     <img src="./assets/images/icons/icons8-terraformar-48.png" alt="">
                     <h3 class="font-bold text-md mt-2">Terraform</h3>
                 </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-google-cloud-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">GCP</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-pandas-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Pandas</h3>
+                </div>
+
+                <div class="flex flex-col w-32 h-32 mx-auto items-center justify-between border-2 border-gray-300 p-4 rounded-lg shadow-md ">
+                    <img src="./assets/images/icons/icons8-lanterna-48.png" alt="">
+                    <h3 class="font-bold text-md mt-2">Pytorch</h3>
+                </div>
             </div>
         </section> 
 
-        <section>
+        <section id="education">
+            <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
+                <h2 class="text-xl font-bold">Educação</h2>
+
+            </div>
+            <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4 border-2 border-blue-600 flex items-center">
+                <div class="mr-4">
+                    <img class="my-auto w-32 h-32 mx-auto" src="./assets/images/UFCG_logo_png.png" alt="Simbolo da Universidade Federal de Campina Grande" class="w-32 h-32 mb-4 mx-auto">
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-center mb-4">Bacharelado em Ciência da Computação</h3>
+                    <p class="text-md text-center mb-4">Universidade Federal de Campina Grande (UFCG)</p>
+                    <p class="text-sm text-gray-400">Início: Março de 2021 - Previsão de Conclusão: Março de 2026</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact">
             <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
                 <h2 class="text-xl font-bold">Contato</h2>
 
@@ -231,7 +275,7 @@
             </div>
             <div class="space-y-4 bg-white p-8 rounded-lg shadow-md w-fit mx-auto mb-4">
                 <p>
-                    Email: caiosciencec@gmail.com
+                    <span class="font-bold ">Email:</span> caiosciencec@gmail.com
                 </p>
             </div>
 
