@@ -8,15 +8,17 @@ ripple.classList.add('invisible');
 ripple.classList.add('p-4');
 ripple.classList.add('rounded-lg');
 ripple.classList.add('z-10');
-ripple.classList.add('w-64');
+ripple.classList.add('w-120');
 ripple.classList.add('shadow-lg');
 ripple.classList.add('opacity-90');
+ripple.classList.add('border-1');
 
 
 const title = document.createElement('h3');
 title.innerHTML = 'Atividades Desenvolvidas';
 title.classList.add('font-bold');
 title.classList.add('text-lg');
+title.classList.add('text-center');
 ripple.appendChild(title);
 
 const divider = document.createElement('hr');
