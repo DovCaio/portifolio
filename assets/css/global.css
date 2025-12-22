@@ -34,3 +34,8 @@
 body {
     background-color: var(--color2);
 }
+
+.experience-infos-div {
+    background-color: var(--color1);
+    position: absolute;
+}
